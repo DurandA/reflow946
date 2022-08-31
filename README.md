@@ -22,7 +22,7 @@ The controller is based on a ESP32 module with an IPEX antenna. Since the metal 
 
 - [x] Temperature control
   - [x] Temperature control using the front panel
-  - [ ] BLE GATT service for temperature control
-- [ ] Reflow profile programming
-  - [ ] BLE GATT service for reflow profiles
+  - [x] BLE GATT service for temperature control
+- [x] Reflow profile programming
+  - [x] BLE GATT service for reflow profiles
   - [ ] Web Bluetooth application
