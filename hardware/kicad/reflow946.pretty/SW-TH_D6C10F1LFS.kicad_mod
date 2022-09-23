@@ -30,9 +30,9 @@
   (fp_arc (start -5.6 -2.16) (mid 6.002133 -0.000802) (end -5.599422 2.161497) (layer "F.SilkS") (width 0.25) (tstamp 2a7bdee7-c78d-436d-b074-acc1d967ef30))
   (fp_circle (center -5.4 5.99) (end -5.37 5.99) (layer "F.Fab") (width 0.06) (fill none) (tstamp 8160337c-6d3f-4854-a061-5c4070c37af1))
   (pad "1" thru_hole circle (at -2.5 2.5) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 596fffa9-3faa-41ec-92c2-59deadbaab4b))
-  (pad "2" thru_hole circle (at 2.5 2.5) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 6c65c31e-8cb7-40c2-be06-b4586c9454e8))
-  (pad "3" thru_hole circle (at -2.5 -2.5) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp dfecdda9-4d02-4865-86ae-81356767516b))
-  (pad "4" thru_hole circle (at 2.5 -2.5) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 7d153920-3262-4457-bbe5-18f38f0c5f5c))
+  (pad "1" thru_hole circle (at 2.5 2.5) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 6c65c31e-8cb7-40c2-be06-b4586c9454e8))
+  (pad "2" thru_hole circle (at 2.5 -2.5) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 7d153920-3262-4457-bbe5-18f38f0c5f5c))
+  (pad "2" thru_hole circle (at -2.5 -2.5) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp dfecdda9-4d02-4865-86ae-81356767516b))
   (model "${KIPRJMOD}/3D/SW-TH_D6C10F1LFS.step"
     (offset (xyz 0 0 0))
     (scale (xyz 2.54 2.54 2.54))
