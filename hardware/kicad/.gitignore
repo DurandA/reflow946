@@ -1,0 +1,4 @@
+lib_ext
+fromGerber.*
+*-backups
+3D/**
