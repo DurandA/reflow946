@@ -26,3 +26,8 @@ The controller is based on a ESP32 module with an IPEX antenna. Since the metal 
 - [x] Reflow profile programming
   - [x] [BLE GATT service](https://github.com/DurandA/reflow946-firmware/wiki/GATT-Services) for reflow profiles
   - [ ] Web Bluetooth application
+
+## Credits
+
+* Arnaud Durand - Orignal design
+* Elías Rodríguez Martín - Revision 1.1, conversion to KiCad
