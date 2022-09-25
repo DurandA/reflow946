@@ -4182,7 +4182,7 @@
     (property "Value" "FerriteBead" (id 1) (at 192.9892 109.22 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 193.04 116.078 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 193.04 116.078 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 193.04 114.3 0)
@@ -4973,7 +4973,7 @@
     (property "Value" "FerriteBead" (id 1) (at 192.9892 109.22 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 193.04 103.378 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 193.04 103.378 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 193.04 101.6 0)
@@ -5183,10 +5183,10 @@
       (reference "F1") (unit 1) (value "SMD0805-020-16V") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/5092413b-b3a7-4468-a8a4-dae7a08665ca"
-      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/ecc49533-7a2f-4586-9bbf-23096fabfb73"
-      (reference "FB2") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+      (reference "FB2") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/aefaf454-2975-4b97-a001-c5e7b8345189"
       (reference "J1") (unit 1) (value "VH-2A") (footprint "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical")
