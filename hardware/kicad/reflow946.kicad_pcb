@@ -668,10 +668,10 @@
       (net 1 "Net-(C1-Pad1)") (pinfunction "+") (pintype "passive") (tstamp 1faf6d59-cce6-4aee-bc5a-757c0fc4ab63))
     (pad "4" smd rect (at 3.1 -1.25 180) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 14 "GND") (pinfunction "-") (pintype "passive") (tstamp 724d252b-6f94-47dd-b50b-12ed3118b8a9))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/MBF_L4.8-W3.9-P2.50-LS6.7-TL.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-269AA.wrl"
       (offset (xyz 0 -0 -0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
