@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "reflow946")(type "KiCad")(uri "${KIPRJMOD}/reflow946.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/Espressif.pretty")(options "")(descr ""))
 )
