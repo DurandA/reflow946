@@ -6,12 +6,19 @@ Contributions in converting the project to KiCad are welcome.
 
 ## Revision 1.0
 
+### ESP32 module variants
+
+⚠️ There are 85°C and 105°C variants of the ESP32-WROOM-32U(E) module. When heating stuff with a large termal mass, the temperature inside the case can largely exceed 85°C, causing glitches and reboots of the ESP32. It is advised to use the H version of the module.
+
+![image](https://github.com/DurandA/reflow946/assets/3709037/66f9cbfe-440b-41f1-b86f-74d51b698ccf)
+
+
 ### BOM
 
 | Name | Designator | Footprint | Quantity | Supplier |
 |---|---|---|---|---|
 | MOC3041M | U1 | DIP-6_L8.5-W6.4-P2.54-LS7.6-BL | 1 | [LCSC](https://lcsc.com/product-detail/C8921.html) |
-| ESP32-WROOM-32U | U2 | WIFIM-SMD_39P-L19.2-W18.0-P1.27 | 1 | [LCSC](https://lcsc.com/product-detail/C3013938.html) |
+| ESP32-WROOM-32UE-H4 | U2 | WIFIM-SMD_39P-L19.2-W18.0-P1.27 | 1 | [LCSC](https://lcsc.com/product-detail/C3013922.html) |
 | MAX31855KASA | U3 | SO-8_L4.9-W3.9-P1.27-LS5.9-BL | 1 | [LCSC](https://lcsc.com/product-detail/C52028.html) |
 | AMS1117-3.3 | U4 | SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR | 1 | [LCSC](https://lcsc.com/product-detail/C6186.html) |
 | ~EL817~ | U5 | SOP-4_L6.5-W4.6-P2.54-LS10.2-TL | ~1~ | ~[LCSC](lcsc.com/product-detail/C183799.html)~ |
@@ -45,4 +52,4 @@ Ferrite beads (`L1`, `L2`) are not really required, you can make a solder bridge
 
 ### Errata
 
-Zero-cross detection circuitry is not required with the use of the MOC3041 and will be removed in future revisions of the board. You do not need to populate `U5`, `R2`, `R21` and you can use a 0Ω resistor over `D2` footprint.  
+Zero-cross detection circuitry is not required with the use of the MOC3041 and will be removed in future revisions of the board. You do not need to populate `U5`, `R2`, `R21` and you can use a 0Ω resistor over `D2` footprint.
