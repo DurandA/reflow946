@@ -12,7 +12,6 @@ Contributions in converting the project to KiCad are welcome.
 
 ![image](https://github.com/DurandA/reflow946/assets/3709037/66f9cbfe-440b-41f1-b86f-74d51b698ccf)
 
-
 ### BOM
 
 | Name | Designator | Footprint | Quantity | Supplier |
@@ -33,7 +32,7 @@ Contributions in converting the project to KiCad are welcome.
 | HDR-M-2.54_2x3 | ESP-PROG | HDR-M-2.54_2X3 | 1 | [LCSC](https://lcsc.com/product-detail/C65114.html) |
 | SMD0805-020-16V | F1 | F0805 | 1 | [LCSC](https://lcsc.com/product-detail/C70057.html) |
 | ~CBG100505U260T~ | L1,L2 | L0402 | ~2~ | ~[LCSC](https://lcsc.com/product-detail/C668229.html)~ |
-| FJ4301BH | LED1 | LED-SEG-TH_12P-L30.1-W16.0-P2.54-S12.70-BL | 1 | [LCSC](https://lcsc.com/product-detail/C10706.html) |
+| 3bit common anode 0.4" LED segment display | LED1 | LED-SEG-TH_12P-L30.1-W16.0-P2.54-S12.70-BL | 1 | [LCSC](https://lcsc.com/product-detail/C105656.html) |
 | VH-2A | P1 | CONN-TH_VH3.96-2A | 1 | [LCSC](https://lcsc.com/product-detail/C16728.html) |
 | VH3.96-3P2 | P2,P3 | CONN-TH_VH3.96-3P2 | 2 | [LCSC](https://lcsc.com/product-detail/C18157.html) |
 | XH-2A | P4 | CONN-TH_XH-2A | 1 | [LCSC](https://lcsc.com/product-detail/C20079.html) |
