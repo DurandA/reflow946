@@ -51,4 +51,5 @@ Ferrite beads (`L1`, `L2`) are not really required, you can make a solder bridge
 
 ### Errata
 
-Zero-cross detection circuitry is not required with the use of the MOC3041 and will be removed in future revisions of the board. You do not need to populate `U5`, `R2`, `R21` and you can use a 0Ω resistor over `D2` footprint.
+- ⚠️ `U3` (_MAX31855KASA_) has [reverse polarity on K element](https://github.com/DurandA/reflow946/issues/7) and [`MISO` and `CLK` pins are swapped](https://github.com/DurandA/reflow946/issues/6) on revision 1.1.
+- Zero-cross detection circuitry is not required with the use of the MOC3041 and will be removed in future revisions of the board. You do not need to populate `U5`, `R2`, `R21` and you can use a 0Ω resistor over `D2` footprint.
